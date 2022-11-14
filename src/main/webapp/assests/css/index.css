@@ -1,0 +1,48 @@
+body{
+	margin: 0, auto;
+	background-image: url("../images/index.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.index{
+	margin-top: 110px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.index .cards .text-card{
+	position: relative;
+	background: #ffffff;
+	max-width: 350px;
+	width: 350px;
+	margin: 20px;
+	box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.index a{
+	text-decoration: none;
+}
+
+.index .cards .text-card h3{
+	font-size: 30px;
+	text-align: center;
+	color: #4d4d4d;
+}
+
+.reveal.active{
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.text-card{
+	transition: 0.4s;
+	transition-property: transform;
+}
+
+.index .text-card:hover{
+	background-color: #e6e6e6;
+}
