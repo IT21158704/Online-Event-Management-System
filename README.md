@@ -1,6 +1,6 @@
 # Online-Event-Management-System
 
-This system for OOP Projrct
+This system for OOP Project
 
 *Backend - Java
 *Frontend - Html, CSS, JavaScript
